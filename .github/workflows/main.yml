@@ -40,4 +40,4 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           server-dir: ~/public_html/nurulbambang.my.id/
-          local-dir: out  # Assuming Next.js generated static files are in the 'out' directory 
+          local-dir: out/  # Assuming Next.js generated static files are in the 'out' directory 
