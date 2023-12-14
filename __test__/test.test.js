@@ -5,6 +5,6 @@ import Home from "@/app/page";
 
 test("renders hello message", () => {
   render(<Home />);
-  const helloElement = screen.getByText(/hello, next.js/i);
+  const helloElement = screen.getByText(/asds, nexadasdt.js/i);
   expect(helloElement).toBeInTheDocument();
 });
